@@ -35,7 +35,6 @@
 
 ```bash
 git clone <repo-url>
-cd Diplom
 ```
 
 ### 2. Налаштуйте змінні середовища
