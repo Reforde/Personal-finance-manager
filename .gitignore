@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Flask-Migrate / Alembic
+# (keep migrations/ folder but ignore cache)
+migrations/versions/__pycache__/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / React build
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Tailwind
+frontend/src/styles/output.css
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Claude Code (local IDE settings — machine-specific)
+.claude/
+
+# SSL / secrets
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Coverage reports
+.coverage.*
+coverage/
+
+# Temporary / editor swap
+*.tmp
+*.bak
